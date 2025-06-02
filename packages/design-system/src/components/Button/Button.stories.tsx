@@ -17,19 +17,28 @@ const meta: Meta<typeof Button> = {
   argTypes: {
     variant: {
       description: '버튼의 시각적 스타일을 결정합니다',
-      options: ['default', 'dark', 'destructive', 'secondary', 'outline', 'outlineHoverFill', 'outlineDark', 'outlineMute', 'ghost', 'hover', 'link'],
+      options: ['solid', 'outline', 'outlineSoft', 'outlineMuted', 'soft', 'link'],
       control: { type: 'radio' },
       table: {
-        defaultValue: { summary: 'default' },
+        defaultValue: { summary: 'solid' },
+        type: { summary: 'string' },
+      },
+    },
+    intent: {
+      description: '버튼의 의미적 역할을 결정합니다',
+      options: ['primary', 'secondary', 'danger', 'warning'],
+      control: { type: 'radio' },
+      table: {
+        defaultValue: { summary: 'primary' },
         type: { summary: 'string' },
       },
     },
     size: {
       description: '버튼의 크기를 결정합니다',
-      options: ['default', 'sm', 'lg'],
+      options: ['md', 'sm', 'lg'],
       control: { type: 'radio' },
       table: {
-        defaultValue: { summary: 'default' },
+        defaultValue: { summary: 'md' },
         type: { summary: 'string' },
       },
     },
@@ -55,7 +64,9 @@ type Story = StoryObj<typeof Button>;
 export const Default: Story = {
   args: {
     children: '기본 버튼',
-    variant: 'default',
+    variant: 'solid',
+    intent: 'primary',
+    size: 'md',
   },
   parameters: {
     docs: {
@@ -66,68 +77,74 @@ export const Default: Story = {
   },
 };
 
-// 모든 Variants 보기
-export const AllVariants: Story = {
+// 모든 조합 보기
+export const AllCombinations: Story = {
   render: () => (
-    <div className="flex flex-col gap-4 p-4">
-      <div className="flex flex-wrap gap-4">
-        <Button variant="default">Default</Button>
-        <Button variant="dark">Dark</Button>
-        <Button variant="destructive">Destructive</Button>
-        <Button variant="secondary">Secondary</Button>
-      </div>
-      <div className="flex flex-wrap gap-4">
-        <Button variant="outline">Outline</Button>
-        <Button variant="outlineHoverFill">OutlineHoverFill</Button>
-        <Button variant="outlineDark">OutlineDark</Button>
-        <Button variant="outlineMute">OutlineMute</Button>
-      </div>
-      <div className="flex flex-wrap gap-4">
-        <Button variant="ghost">Ghost</Button>
-        <Button variant="hover">Hover</Button>
-        <Button variant="link">Link</Button>
-      </div>
-    </div>
-  ),
-  parameters: {
-    docs: {
-      description: {
-        story: '모든 variant를 한눈에 비교할 수 있습니다.',
-      },
-    },
-  },
-};
+      <div className="flex flex-col gap-8 p-4">
+        <div>
+          <h3 className="mb-4 text-lg font-semibold">Solid Variants</h3>
+          <div className="flex flex-wrap gap-4">
+            <Button variant="solid" intent="primary">Primary</Button>
+            <Button variant="solid" intent="secondary">Secondary</Button>
+            <Button variant="solid" intent="danger">Danger</Button>
+            <Button variant="solid" intent="warning">Warning</Button>
+          </div>
+        </div>
 
-// 모든 크기 보기
-export const AllSizes: Story = {
-  render: () => (
-    <div className="flex items-center gap-4">
-      <Button size="sm">Small</Button>
-      <Button size="default">Default</Button>
-      <Button size="lg">Large</Button>
-    </div>
-  ),
-  parameters: {
-    docs: {
-      description: {
-        story: '버튼의 모든 크기를 한눈에 비교할 수 있습니다.',
-      },
-    },
-  },
-};
+        <div>
+          <h3 className="mb-4 text-lg font-semibold">Outline Variants</h3>
+          <div className="flex flex-wrap gap-4">
+            <Button variant="outline" intent="primary">Primary</Button>
+            <Button variant="outline" intent="secondary">Secondary</Button>
+            <Button variant="outline" intent="danger">Danger</Button>
+            <Button variant="outline" intent="warning">Warning</Button>
+          </div>
+        </div>
 
-// 상태별 버튼
-export const States: Story = {
-  render: () => (
-    <div className="flex gap-4">
-      <Button>Normal</Button>
-      <Button disabled>Disabled</Button>
-    </div>
+        <div>
+          <h3 className="mb-4 text-lg font-semibold">Outline Soft Variants</h3>
+          <div className="flex flex-wrap gap-4">
+            <Button variant="outline" intent="primary">Primary</Button>
+            <Button variant="outline" intent="secondary">Secondary</Button>
+            <Button variant="outline" intent="danger">Danger</Button>
+            <Button variant="outline" intent="warning">Warning</Button>
+          </div>
+        </div>
+        <div>
+          <h3 className="mb-4 text-lg font-semibold">Outline Mute Variants</h3>
+          <div className="flex flex-wrap gap-4">
+            <Button variant="outlineMuted" intent="primary">Primary</Button>
+            <Button variant="outlineMuted" intent="secondary">Secondary</Button>
+            <Button variant="outlineMuted" intent="danger">Danger</Button>
+            <Button variant="outlineMuted" intent="warning">Warning</Button>
+          </div>
+        </div>
+
+        <div>
+          <h3 className="mb-4 text-lg font-semibold">Soft Variants</h3>
+          <div className="flex flex-wrap gap-4">
+            <Button variant="soft" intent="primary">Primary</Button>
+            <Button variant="soft" intent="secondary">Secondary</Button>
+            <Button variant="soft" intent="danger">Danger</Button>
+            <Button variant="soft" intent="warning">Warning</Button>
+          </div>
+        </div>
+
+        <div>
+          <h3 className="mb-4 text-lg font-semibold">Link Variants</h3>
+          <div className="flex flex-wrap gap-4">
+            <Button variant="link" intent="primary">Primary</Button>
+            <Button variant="link" intent="secondary">Secondary</Button>
+            <Button variant="link" intent="danger">Danger</Button>
+            <Button variant="link" intent="warning">Warning</Button>
+          </div>
+        </div>
+      </div>
   ),
   parameters: {
     docs: {
       description: {
-        story: '버튼의 다양한 상태를 보여줍니다.',
+        story: '모든 variant와 intent의 조합을 한눈에 비교할 수 있습니다.',
       },
     },
   },
