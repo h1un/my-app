@@ -4,7 +4,99 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcc97952-8c78-4ea5-b869-47f811b8c4c2" name="변경" comment="" />
+    <list default="true" id="dcc97952-8c78-4ea5-b869-47f811b8c4c2" name="변경" comment="feat: #1 Input.tsx, Input.stories.tsx">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/default/dev-server/storybook-0c9aba2732f8798ca2ae104c09855acc" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/default/dev-server/storybook-0c9aba2732f8798ca2ae104c09855acc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/default/dev-server/storybook-21d6f40cfb511982e4424e0e250a9557" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/default/dev-server/storybook-21d6f40cfb511982e4424e0e250a9557" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@ampproject_remapping.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@ampproject_remapping.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@jridgewell_sourcemap-codec.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@jridgewell_sourcemap-codec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@mdx-js_react.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@mdx-js_react.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@radix-ui_react-slot.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@radix-ui_react-slot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@storybook_addon-docs.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@storybook_addon-docs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@storybook_addon-docs_blocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@storybook_addon-docs_blocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@storybook_addon-docs_preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@storybook_addon-docs_preview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@storybook_addon-links_preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@storybook_addon-links_preview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@storybook_react_dist_entry-preview-docs__mjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@storybook_react_dist_entry-preview-docs__mjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@storybook_react_dist_entry-preview-rsc__mjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@storybook_react_dist_entry-preview-rsc__mjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@storybook_react_dist_entry-preview__mjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/@storybook_react_dist_entry-preview__mjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/Color-AVL7NMMY-J6RQGNXB.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/Color-AVL7NMMY-J6RQGNXB.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/DocsRenderer-3PZUHFFL-KHCEAUPO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/DocsRenderer-3PZUHFFL-KHCEAUPO.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/DocsRenderer-PQXLIZUC-XOTTZ2FK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/DocsRenderer-PQXLIZUC-XOTTZ2FK.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/_metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/acorn-jsx.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/acorn-jsx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/acorn.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/acorn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/aria-query.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/aria-query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/axe-core.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/axe-core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/axobject-query.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/axobject-query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-6FYF4ROV.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-6FYF4ROV.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-BKDDKEDW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-BKDDKEDW.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-CNOWUP4S.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-CNOWUP4S.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-D5XULO4D.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-D5XULO4D.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-EABRUX6V.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-EABRUX6V.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-EDPWGVCC.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-EDPWGVCC.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-ETK3SEBG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-ETK3SEBG.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-GXY6G7KL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-GXY6G7KL.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-HKROQOIZ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-HKROQOIZ.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-LOZKGSZS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-LOZKGSZS.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-MIC3EUZA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-MIC3EUZA.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-P3VNSN5T.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-P3VNSN5T.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-PH6BELWB.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-PH6BELWB.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-QE3WDADX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-QE3WDADX.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-RRAMJDGF.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-RRAMJDGF.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-T46EDW6P.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-T46EDW6P.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-T6OMFTGK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-T6OMFTGK.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-TN74FMVR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-TN74FMVR.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-YUFMMRTJ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/chunk-YUFMMRTJ.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/class-variance-authority.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/class-variance-authority.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/clsx.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/clsx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/color-convert.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/color-convert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/components-LYDWBPGX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/components-LYDWBPGX.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/doctrine.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/doctrine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/estraverse.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/estraverse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/fast-deep-equal.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/fast-deep-equal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/prettier_parser-babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/prettier_parser-babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/prettier_parser-flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/prettier_parser-flow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/prettier_parser-typescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/prettier_parser-typescript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/prop-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/prop-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/react-18-IA6DXPXA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/react-18-IA6DXPXA.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/react-dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/react-dom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/react-dom_client.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/react-dom_client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/react-dom_test-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/react-dom_test-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/react-is.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/react-is.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/react.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/react.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/react_jsx-dev-runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/react_jsx-dev-runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/react_jsx-runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/react_jsx-runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/semver.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/semver.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/storybook_internal_csf.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/storybook_internal_csf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/storybook_internal_preview_runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/storybook_internal_preview_runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/storybook_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/storybook_test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/storybook_viewport.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/storybook_viewport.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/tailwind-merge.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/design-system/node_modules/.cache/storybook/f81023c37307cbb9b497a79625b928b134bc40ce02900fdcead02099bf960764/sb-vite/deps/tailwind-merge.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,20 +113,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/haeun/Documents/GitHub/my-app&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/haeun/Documents/GitHub/my-app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "ts.external.directory.path": "/Users/haeun/Documents/GitHub/my-app/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -54,10 +150,77 @@
       <workItem from="1748532787464" duration="36000" />
       <workItem from="1748532826173" duration="2145000" />
       <workItem from="1748535081874" duration="151000" />
+      <workItem from="1748536204858" duration="1854000" />
+      <workItem from="1748538478508" duration="14393000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: #1 Button.tsx variant, intent 분리">
+      <option name="closed" value="true" />
+      <created>1748882249966</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748882249966</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: #1 Button.tsx variant, intent 분리">
+      <option name="closed" value="true" />
+      <created>1748882275250</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748882275250</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: #1 Input.tsx, Input.stories.tsx">
+      <option name="closed" value="true" />
+      <created>1748885019099</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748885019099</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: #1 Input.tsx, Input.stories.tsx">
+      <option name="closed" value="true" />
+      <created>1748885175614</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748885175614</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: #1 Input.tsx, Input.stories.tsx">
+      <option name="closed" value="true" />
+      <created>1748886161221</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1748886161221</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: #1 Input.tsx, Input.stories.tsx">
+      <option name="closed" value="true" />
+      <created>1748886335224</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748886335224</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: #1 Button.tsx variant, intent 분리" />
+    <MESSAGE value="feat: #1 Input.tsx, Input.stories.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: #1 Input.tsx, Input.stories.tsx" />
   </component>
 </project>
