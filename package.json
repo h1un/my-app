@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "storybook": "pnpm --filter @my-app/design-system storybook",
+    "build:storybook": "pnpm --filter @my-app/design-system build-storybook"
   },
   "dependencies": {
     "@my-app/design-system": "workspace:*",
