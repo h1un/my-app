@@ -17,20 +17,29 @@ const meta: Meta<typeof Button> = {
   tags: ['autodocs'],
   argTypes: {
     variant: {
-      description: '버튼의 시각적 스타일을 결정합니다',
-      options: ['solid', 'outline', 'outlineSoft', 'outlineMuted', 'soft', 'link'],
+      description: '버튼의 시각적 형태를 결정합니다',
+      options: ['solid', 'outline', 'text', 'link'],
       control: { type: 'radio' },
       table: {
-        defaultValue: { summary: 'solid' },
+        defaultValue: { summary: 'filled' },
         type: { summary: 'string' },
       },
     },
     intent: {
       description: '버튼의 의미적 역할을 결정합니다',
-      options: ['primary', 'secondary', 'danger', 'warning'],
+      options: ['primary', 'secondary', 'success', 'danger', 'warning'],
       control: { type: 'radio' },
       table: {
         defaultValue: { summary: 'primary' },
+        type: { summary: 'string' },
+      },
+    },
+    tone: {
+      description: '버튼의 색상 강도를 결정합니다',
+      options: ['filled', 'soft'],
+      control: { type: 'radio' },
+      table: {
+        defaultValue: { summary: 'filled' },
         type: { summary: 'string' },
       },
     },
@@ -67,6 +76,7 @@ export const Default: Story = {
     children: '기본 버튼',
     variant: 'solid',
     intent: 'primary',
+    tone: 'filled',
     size: 'md',
   },
   parameters: {
@@ -83,91 +93,134 @@ export const AllCombinations: Story = {
   render: () => (
     <div className="flex flex-col gap-8 p-4">
       <div>
-        <h3 className="mb-4 text-lg font-semibold">Solid Variants</h3>
-        <div className="flex flex-wrap gap-4">
-          <Button variant="solid" intent="primary">
-            Primary
-          </Button>
-          <Button variant="solid" intent="secondary">
-            Secondary
-          </Button>
-          <Button variant="solid" intent="danger">
-            Danger
-          </Button>
-          <Button variant="solid" intent="warning">
-            Warning
-          </Button>
+        <h3 className="mb-4 text-lg font-semibold">Filled Variants</h3>
+        <div className="mb-4">
+          <h4 className="mb-2 text-sm font-medium text-gray-600">filled</h4>{' '}
+          <div className="flex flex-wrap gap-4">
+            <Button variant="solid" intent="primary" tone="filled">
+              Primary
+            </Button>
+            <Button variant="solid" intent="secondary" tone="filled">
+              Secondary
+            </Button>
+            <Button variant="solid" intent="success" tone="filled">
+              Success
+            </Button>
+            <Button variant="solid" intent="danger" tone="filled">
+              Danger
+            </Button>
+            <Button variant="solid" intent="warning" tone="filled">
+              Warning
+            </Button>
+          </div>
+        </div>
+        <div>
+          <h4 className="mb-2 text-sm font-medium text-gray-600">Soft</h4>
+          <div className="flex flex-wrap gap-4">
+            <Button variant="solid" intent="primary" tone="soft">
+              Primary
+            </Button>
+            <Button variant="solid" intent="secondary" tone="soft">
+              Secondary
+            </Button>
+            <Button variant="solid" intent="success" tone="soft">
+              Success
+            </Button>
+            <Button variant="solid" intent="danger" tone="soft">
+              Danger
+            </Button>
+            <Button variant="solid" intent="warning" tone="soft">
+              Warning
+            </Button>
+          </div>{' '}
         </div>
       </div>
 
       <div>
         <h3 className="mb-4 text-lg font-semibold">Outline Variants</h3>
-        <div className="flex flex-wrap gap-4">
-          <Button variant="outline" intent="primary">
-            Primary
-          </Button>
-          <Button variant="outline" intent="secondary">
-            Secondary
-          </Button>
-          <Button variant="outline" intent="danger">
-            Danger
-          </Button>
-          <Button variant="outline" intent="warning">
-            Warning
-          </Button>
+        <div className="mb-4">
+          <h4 className="mb-2 text-sm font-medium text-gray-600">filled</h4>
+          <div className="flex flex-wrap gap-4">
+            <Button variant="outline" intent="primary" tone="filled">
+              Primary
+            </Button>
+            <Button variant="outline" intent="secondary" tone="filled">
+              Secondary
+            </Button>
+            <Button variant="outline" intent="success" tone="filled">
+              Success
+            </Button>
+            <Button variant="outline" intent="danger" tone="filled">
+              Danger
+            </Button>
+            <Button variant="outline" intent="warning" tone="filled">
+              Warning
+            </Button>
+          </div>
+        </div>
+        <div className="mb-4">
+          <h4 className="mb-2 text-sm font-medium text-gray-600">Soft</h4>
+          <div className="flex flex-wrap gap-4">
+            <Button variant="outline" intent="primary" tone="soft">
+              Primary
+            </Button>
+            <Button variant="outline" intent="secondary" tone="soft">
+              Secondary
+            </Button>
+            <Button variant="outline" intent="success" tone="soft">
+              Success
+            </Button>
+            <Button variant="outline" intent="danger" tone="soft">
+              Danger
+            </Button>
+            <Button variant="outline" intent="warning" tone="soft">
+              Warning
+            </Button>
+          </div>{' '}
         </div>
       </div>
 
       <div>
-        <h3 className="mb-4 text-lg font-semibold">Outline Soft Variants</h3>
-        <div className="flex flex-wrap gap-4">
-          <Button variant="outline" intent="primary">
-            Primary
-          </Button>
-          <Button variant="outline" intent="secondary">
-            Secondary
-          </Button>
-          <Button variant="outline" intent="danger">
-            Danger
-          </Button>
-          <Button variant="outline" intent="warning">
-            Warning
-          </Button>
+        <h3 className="mb-4 text-lg font-semibold">Text Variants</h3>
+        <div className="mb-4">
+          <h4 className="mb-2 text-sm font-medium text-gray-600">Filled</h4>
+          <div className="flex flex-wrap gap-4">
+            <Button variant="text" intent="primary" tone="filled">
+              Primary
+            </Button>
+            <Button variant="text" intent="secondary" tone="filled">
+              Secondary
+            </Button>
+            <Button variant="text" intent="success" tone="filled">
+              Success
+            </Button>
+            <Button variant="text" intent="danger" tone="filled">
+              Danger
+            </Button>
+            <Button variant="text" intent="warning" tone="filled">
+              Warning
+            </Button>
+          </div>
         </div>
-      </div>
-      <div>
-        <h3 className="mb-4 text-lg font-semibold">Outline Mute Variants</h3>
-        <div className="flex flex-wrap gap-4">
-          <Button variant="outlineMuted" intent="primary">
-            Primary
-          </Button>
-          <Button variant="outlineMuted" intent="secondary">
-            Secondary
-          </Button>
-          <Button variant="outlineMuted" intent="danger">
-            Danger
-          </Button>
-          <Button variant="outlineMuted" intent="warning">
-            Warning
-          </Button>
-        </div>
-      </div>
-
-      <div>
-        <h3 className="mb-4 text-lg font-semibold">Soft Variants</h3>
-        <div className="flex flex-wrap gap-4">
-          <Button variant="soft" intent="primary">
-            Primary
-          </Button>
-          <Button variant="soft" intent="secondary">
-            Secondary
-          </Button>
-          <Button variant="soft" intent="danger">
-            Danger
-          </Button>
-          <Button variant="soft" intent="warning">
-            Warning
-          </Button>
+        <div className="mb-4">
+          <h4 className="mb-2 text-sm font-medium text-gray-600">Soft</h4>
+          <div className="flex flex-wrap gap-4">
+            <Button variant="text" intent="primary" tone="soft">
+              Primary
+            </Button>
+            <Button variant="text" intent="secondary" tone="soft">
+              Secondary
+            </Button>
+            <Button variant="text" intent="success" tone="soft">
+              Success
+            </Button>
+            <Button variant="text" intent="danger" tone="soft">
+              Danger
+            </Button>
+            <Button variant="text" intent="warning" tone="soft">
+              Warning
+            </Button>
+          </div>{' '}
         </div>
       </div>
 
@@ -180,9 +233,12 @@ export const AllCombinations: Story = {
           <Button variant="link" intent="secondary">
             Secondary
           </Button>
+          <Button variant="link" intent="success">
+            Success
+          </Button>
           <Button variant="link" intent="danger">
             Danger
-          </Button>
+          </Button>{' '}
           <Button variant="link" intent="warning">
             Warning
           </Button>
@@ -193,7 +249,7 @@ export const AllCombinations: Story = {
   parameters: {
     docs: {
       description: {
-        story: '모든 variant와 intent의 조합을 한눈에 비교할 수 있습니다.',
+        story: '모든 variant, intent, tone의 조합을 한눈에 비교할 수 있습니다.',
       },
     },
   },

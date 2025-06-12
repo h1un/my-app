@@ -15,6 +15,7 @@ const alertVariants = cva(
         secondary: '',
         danger: '',
         warning: '',
+        success: '',
       },
       size: {
         sm: 'max-w-sm',
@@ -47,14 +48,16 @@ export interface AlertProps
 const getIntentIcon = (intent: AlertProps['intent']) => {
   if (!intent) return Info;
   switch (intent) {
-    case 'danger':
-      return AlertCircle;
-    case 'warning':
-      return AlertTriangle;
     case 'primary':
       return Info;
     case 'secondary':
       return Info;
+    case 'success':
+      return CheckCircle2;
+    case 'danger':
+      return AlertCircle;
+    case 'warning':
+      return AlertTriangle;
     default:
       return Info;
   }
@@ -114,7 +117,6 @@ function Alert({
             <span className="sr-only">닫기</span>
           </button>
         )}
-
         {title && (
           <div className="mb-4">
             <div
@@ -132,18 +134,16 @@ function Alert({
             {description && <p className="mt-2 text-sm text-muted-foreground">{description}</p>}
           </div>
         )}
-
-        {children}
-
+        {children}{' '}
         {(onCancel || onConfirm) && (
           <div className="mt-6 flex justify-end gap-2">
             {onCancel && (
-              <Button variant="outlineMuted" intent={intent} onClick={onCancel}>
+              <Button variant="outline" intent={intent || 'primary'} onClick={onCancel}>
                 {cancelText}
               </Button>
             )}
             {onConfirm && (
-              <Button variant="solid" intent={intent} onClick={onConfirm}>
+              <Button variant="solid" intent={intent || 'primary'} onClick={onConfirm}>
                 {confirmText}
               </Button>
             )}
