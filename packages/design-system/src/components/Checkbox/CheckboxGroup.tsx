@@ -35,34 +35,43 @@ const CheckboxGroupItem = React.forwardRef<HTMLDivElement, CheckboxGroupItemProp
   ({ label, value, description, children }, ref) => {
     const { value: groupValue, onValueChange, level } = React.useContext(CheckboxGroupContext);
     const hasChildren = React.Children.count(children) > 0;
-    const childValues = React.useMemo(() => {
-      const values: string[] = [];
-      React.Children.forEach(children, child => {
-        if (React.isValidElement(child) && child.props.value) {
-          values.push(child.props.value);
-        }
-      });
-      return values;
+
+    // 재귀적으로 모든 하위 값들을 수집하는 함수
+    const getAllDescendantValues = React.useMemo(() => {
+      const collectValues = (children: React.ReactNode): string[] => {
+        const values: string[] = [];
+        React.Children.forEach(children, child => {
+          if (React.isValidElement(child) && child.props.value) {
+            values.push(child.props.value);
+            if (child.props.children) {
+              values.push(...collectValues(child.props.children));
+            }
+          }
+        });
+        return values;
+      };
+      return collectValues(children);
     }, [children]);
 
     const isChecked = hasChildren
-      ? childValues.every(v => groupValue.includes(v))
+      ? getAllDescendantValues.every(v => groupValue.includes(v))
       : groupValue.includes(value);
     const isIndeterminate =
       hasChildren &&
-      childValues.some(v => groupValue.includes(v)) &&
-      !childValues.every(v => groupValue.includes(v));
+      getAllDescendantValues.some(v => groupValue.includes(v)) &&
+      !getAllDescendantValues.every(v => groupValue.includes(v));
 
     const handleChange = (checked: boolean) => {
       if (!onValueChange) return;
 
       if (hasChildren) {
         if (checked) {
-          // 자식 체크박스들도 모두 체크
-          onValueChange([...groupValue, value, ...childValues]);
+          // 자신과 모든 하위 체크박스들을 체크
+          const newValues = [...new Set([...groupValue, value, ...getAllDescendantValues])];
+          onValueChange(newValues);
         } else {
-          // 자식 체크박스들도 모두 해제
-          onValueChange(groupValue.filter(v => v !== value && !childValues.includes(v)));
+          // 자신과 모든 하위 체크박스들을 해제
+          onValueChange(groupValue.filter(v => v !== value && !getAllDescendantValues.includes(v)));
         }
       } else {
         if (checked) {
