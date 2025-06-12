@@ -119,11 +119,13 @@ function Alert({
         )}
         {title && (
           <div className="mb-4">
+            {' '}
             <div
               className={cn(
                 'flex items-center gap-2)',
                 intent === 'primary' && 'text-primary',
                 intent === 'secondary' && 'text-secondary',
+                intent === 'success' && 'text-success',
                 intent === 'danger' && 'text-destructive',
                 intent === 'warning' && 'text-warning'
               )}

@@ -13,6 +13,7 @@ const radioGroupItemVariants = cva(
       intent: {
         primary: 'border-primary text-primary',
         secondary: 'border-secondary text-secondary',
+        success: 'border-success text-success',
         danger: 'border-destructive text-destructive',
         warning: 'border-warning text-warning',
       },

@@ -26,7 +26,7 @@ const meta: Meta<typeof Alert> = {
   argTypes: {
     intent: {
       description: '알럿의 의미적 역할을 결정합니다',
-      options: ['primary', 'secondary', 'danger', 'warning'],
+      options: ['primary', 'secondary', 'success', 'danger', 'warning'],
       control: { type: 'radio' },
       table: {
         defaultValue: { summary: 'primary' },
@@ -95,11 +95,11 @@ export const WithButton: Story = {
 
 const AlertWithHook = () => {
   const { openAlert } = useAlert();
-
-  const showAlert = (intent: 'primary' | 'secondary' | 'danger' | 'warning') => {
+  const showAlert = (intent: 'primary' | 'secondary' | 'success' | 'danger' | 'warning') => {
     const messages = {
       primary: { title: '확인', description: '작업을 완료하시겠습니까?' },
       secondary: { title: '안내', description: '추가 정보가 있습니다.' },
+      success: { title: '성공', description: '작업이 성공적으로 완료되었습니다.' },
       warning: { title: '주의', description: '변경사항이 저장되지 않았습니다.' },
       danger: { title: '삭제', description: '정말 삭제하시겠습니까?' },
     };
@@ -111,7 +111,6 @@ const AlertWithHook = () => {
       onCancel: () => console.log('취소'),
     });
   };
-
   return (
     <div className="flex flex-col gap-2">
       <Button variant="solid" intent="primary" onClick={() => showAlert('primary')}>
@@ -119,6 +118,9 @@ const AlertWithHook = () => {
       </Button>
       <Button variant="solid" intent="secondary" onClick={() => showAlert('secondary')}>
         정보 알럿
+      </Button>
+      <Button variant="solid" intent="success" onClick={() => showAlert('success')}>
+        성공 알럿
       </Button>
       <Button variant="solid" intent="warning" onClick={() => showAlert('warning')}>
         경고 알럿

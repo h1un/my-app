@@ -16,6 +16,7 @@ const toastVariants = cva(
       intent: {
         primary: '',
         secondary: '',
+        success: '',
         danger: '',
         warning: '',
       },
@@ -36,6 +37,11 @@ const toastVariants = cva(
         variant: 'solid',
         intent: 'secondary',
         className: 'bg-secondary text-secondary-foreground',
+      },
+      {
+        variant: 'solid',
+        intent: 'success',
+        className: 'bg-success text-success-foreground',
       },
       {
         variant: 'solid',
@@ -60,6 +66,11 @@ const toastVariants = cva(
       },
       {
         variant: 'outline',
+        intent: 'success',
+        className: 'border-success text-success',
+      },
+      {
+        variant: 'outline',
         intent: 'danger',
         className: 'border-destructive text-destructive',
       },
@@ -79,6 +90,8 @@ const toastVariants = cva(
 
 const getIntentIcon = (intent: string) => {
   switch (intent) {
+    case 'success':
+      return CheckCircle2;
     case 'danger':
       return AlertCircle;
     case 'warning':
@@ -185,6 +198,9 @@ const Toast = React.forwardRef<HTMLDivElement, ToastProps>(
                     intent === 'secondary' &&
                     'text-secondary-foreground/70 hover:text-secondary-foreground',
                   variant === 'solid' &&
+                    intent === 'success' &&
+                    'text-success-foreground/70 hover:text-success-foreground',
+                  variant === 'solid' &&
                     intent === 'danger' &&
                     'text-destructive-foreground/70 hover:text-destructive-foreground',
                   variant === 'solid' &&
@@ -196,6 +212,9 @@ const Toast = React.forwardRef<HTMLDivElement, ToastProps>(
                   variant !== 'solid' &&
                     intent === 'secondary' &&
                     'text-secondary/70 hover:text-secondary',
+                  variant !== 'solid' &&
+                    intent === 'success' &&
+                    'text-success/70 hover:text-success',
                   variant !== 'solid' &&
                     intent === 'danger' &&
                     'text-destructive/70 hover:text-destructive',

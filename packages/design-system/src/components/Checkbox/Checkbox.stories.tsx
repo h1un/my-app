@@ -33,6 +33,7 @@ export const WithIntent: Story = {
     <div className="flex flex-col gap-4">
       <Checkbox label="Primary Checkbox" intent="primary" />
       <Checkbox label="Secondary Checkbox" intent="secondary" />
+      <Checkbox label="Success Checkbox" intent="success" />
       <Checkbox label="Danger Checkbox" intent="danger" />
       <Checkbox label="Warning Checkbox" intent="warning" />
     </div>

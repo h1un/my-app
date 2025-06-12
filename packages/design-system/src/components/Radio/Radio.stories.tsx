@@ -49,6 +49,9 @@ export const WithIntent: Story = {
       <RadioGroup defaultValue="secondary">
         <RadioGroupItem value="secondary" label="Secondary" intent="secondary" />
       </RadioGroup>
+      <RadioGroup defaultValue="success">
+        <RadioGroupItem value="success" label="Success" intent="success" />
+      </RadioGroup>
       <RadioGroup defaultValue="danger">
         <RadioGroupItem value="danger" label="Danger" intent="danger" />
       </RadioGroup>

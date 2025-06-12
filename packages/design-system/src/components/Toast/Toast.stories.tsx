@@ -31,7 +31,7 @@ const meta = {
     },
     intent: {
       description: '토스트의 의미적 역할을 결정합니다',
-      options: ['primary', 'secondary', 'danger', 'warning'],
+      options: ['primary', 'secondary', 'success', 'danger', 'warning'],
       control: { type: 'radio' },
       table: {
         defaultValue: { summary: 'primary' },
@@ -114,9 +114,10 @@ export const All: StoryFn<typeof Toast> = args => {
           variant="outline"
           intent="primary"
         />
-      </div>
+      </div>{' '}
       <div className="flex flex-row gap-2">
         <Toast
+          {...args}
           id="static-3"
           title="Secondary 토스트"
           description="solid 스타일의 secondary 토스트입니다."
@@ -124,6 +125,7 @@ export const All: StoryFn<typeof Toast> = args => {
           intent="secondary"
         />
         <Toast
+          {...args}
           id="static-4"
           title="Secondary 토스트"
           description="outline 스타일의 secondary 토스트입니다."
@@ -134,13 +136,29 @@ export const All: StoryFn<typeof Toast> = args => {
       <div className="flex flex-row gap-2">
         <Toast
           id="static-5"
+          title="Success 토스트"
+          description="solid 스타일의 success 토스트입니다."
+          variant="solid"
+          intent="success"
+        />
+        <Toast
+          id="static-6"
+          title="Success 토스트"
+          description="outline 스타일의 success 토스트입니다."
+          variant="outline"
+          intent="success"
+        />
+      </div>
+      <div className="flex flex-row gap-2">
+        <Toast
+          id="static-7"
           title="Danger 토스트"
           description="solid 스타일의 danger 토스트입니다."
           variant="solid"
           intent="danger"
         />
         <Toast
-          id="static-6"
+          id="static-8"
           title="Danger 토스트"
           description="outline 스타일의 danger 토스트입니다."
           variant="outline"
@@ -149,14 +167,14 @@ export const All: StoryFn<typeof Toast> = args => {
       </div>
       <div className="flex flex-row gap-2">
         <Toast
-          id="static-7"
+          id="static-9"
           title="Warning 토스트"
           description="solid 스타일의 warning 토스트입니다."
           variant="solid"
           intent="warning"
         />
         <Toast
-          id="static-8"
+          id="static-10"
           title="Warning 토스트"
           description="outline 스타일의 warning 토스트입니다."
           variant="outline"
@@ -212,11 +230,11 @@ Interactive.parameters = {
 
 const IntentToasts = () => {
   const { addToast } = useToast();
-
-  const showToast = (intent: 'primary' | 'secondary' | 'danger' | 'warning') => {
+  const showToast = (intent: 'primary' | 'secondary' | 'success' | 'danger' | 'warning') => {
     const messages = {
       primary: { title: '성공', description: '작업이 완료되었습니다.' },
       secondary: { title: '안내', description: '추가 정보가 있습니다.' },
+      success: { title: '완료', description: '성공적으로 저장되었습니다.' },
       warning: { title: '주의', description: '잠재적인 문제가 있습니다.' },
       danger: { title: '오류', description: '작업을 완료할 수 없습니다.' },
     };
@@ -228,7 +246,6 @@ const IntentToasts = () => {
       duration: 5000,
     });
   };
-
   return (
     <div className="flex flex-col gap-2">
       <Button variant="solid" intent="primary" onClick={() => showToast('primary')}>
@@ -236,6 +253,9 @@ const IntentToasts = () => {
       </Button>
       <Button variant="solid" intent="secondary" onClick={() => showToast('secondary')}>
         안내 토스트
+      </Button>
+      <Button variant="solid" intent="success" onClick={() => showToast('success')}>
+        완료 토스트
       </Button>
       <Button variant="solid" intent="warning" onClick={() => showToast('warning')}>
         주의 토스트

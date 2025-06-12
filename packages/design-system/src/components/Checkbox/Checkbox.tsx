@@ -15,6 +15,8 @@ const checkboxVariants = cva(
           'border-primary data-[state=checked]:bg-primary data-[state=checked]:border-primary',
         secondary:
           'border-secondary data-[state=checked]:bg-secondary data-[state=checked]:border-secondary',
+        success:
+          'border-success data-[state=checked]:bg-success data-[state=checked]:border-success',
         danger:
           'border-destructive data-[state=checked]:bg-destructive data-[state=checked]:border-destructive',
         warning:
